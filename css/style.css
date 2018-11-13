@@ -1,0 +1,86 @@
+body {
+    font-family: 'candara';
+    background-color: lightcyan;
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-size: 18px;
+    /* text-align: center;*/
+}
+
+h1 {
+    text-shadow:
+        2px 1px 1px orchid;
+}
+
+#itemAdd {
+    font-size: 20px;
+}
+
+.container {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-shadow:
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -1px -1px 0 pink,
+        -30px 20px 40px dimgrey;
+    transform: skewY(-5deg);
+    /*  justify-content: center;*/
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.additem {
+    font-size: 20px;
+    color: #C71585;
+}
+
+#itemAdd,
+.additem {
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0px 8px 5px #888888;
+    padding: 3%;
+}
+
+ul {
+  list-style-type: none;    
+  list-style-position: inside;
+    margin: 10px;
+    font-family: 'Delius Swash Caps', cursive;
+    line-height: 140%;
+
+}
+
+ul li:before {
+    /*After gör att iconen hamnar efteråt*/
+    font-family: "FontAwesome";
+    font-size: 10px;
+    margin-right: 10px;
+    content: '\f0da';
+}
+
+
+/*Add button and ul-list*/
+.additem,
+ul:hover {
+    cursor: pointer;
+}
+
+.deleteButton, .deleteButton:hover{
+    color: pink;
+
+
+}
